@@ -10,12 +10,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "theme-color": "#F9F9ED",
-        "theme-color-lighter": "#FEFEF4",
+        "theme-color": "#E0E4E5",
+        "theme-color-lighter": "#EAEAEA",
         "theme-text": "#0F1115",
         "theme-color-dark": "#0F1115",
         "theme-color-dark-lighter": "#14161C",
-        "theme-text-dark": "#F0F7EE",
+        "theme-text-dark": "#E0E4E5",
         "accent-color": "#008080",
       },
       backgroundImage: {

@@ -190,7 +190,7 @@ export const blogs = [
   {
     name: "Creating a Gran Turismo-esque showroom with Three.js",
     description:
-      "I originally wanted to create a promotional website in 3D for a car manufacturer, but I ended up recreating Gran Turismo (not really) for browsers.",
+      "I originally wanted to create a 3D promotional website for a car manufacturer, but I ended up recreating Gran Turismo (well, almost).",
     date: "September 29, 2023",
     link: "/blogs/gran-turismo-showroom",
   },

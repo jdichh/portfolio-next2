@@ -13,7 +13,7 @@ export default function Tools() {
         {tools.map((tool, index) => (
           <li
             key={index}
-            className="flex flex-col text-center items-center m-1 p-3 rounded-sm tools-section"
+            className="flex flex-col text-center items-center m-1 p-3 rounded-sm highlighted"
           >
             <Image
               src={tool.imageUrl}

@@ -1,19 +1,28 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useTheme } from "next-themes";
 import { PiSunFill } from "react-icons/pi";
 import { PiMoonFill } from "react-icons/pi";
 
+type Theme = "light" | "dark";
+
 export default function ThemeSwitcher() {
   const HOVER_SCALE = 1.1;
   const TAP_SCALE = 0.9;
 
-  const { resolvedTheme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
+  const [currentTheme, setCurrentTheme] = useState<Theme>("light");
+
+  useEffect(() => {
+    setCurrentTheme(theme as Theme);
+  }, [theme]);
 
   const switchTheme = () => {
-    setTheme(resolvedTheme === "light" ? "dark" : "light");
+    const newTheme = currentTheme === "light" ? "dark" : "light";
+    setCurrentTheme(newTheme);
+    setTheme(newTheme);
   };
 
   return (
@@ -24,7 +33,7 @@ export default function ThemeSwitcher() {
       whileHover={{ scale: HOVER_SCALE }}
       whileTap={{ scale: TAP_SCALE }}
     >
-      {resolvedTheme === "light" ? (
+      {currentTheme === "light" ? (
         <PiSunFill size={22} />
       ) : (
         <PiMoonFill size={22} />

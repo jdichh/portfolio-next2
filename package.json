@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ducanh2912/next-pwa": "^9.7.1",
     "framer-motion": "^10.16.4",
     "next": "13.5.4",
     "next-themes": "^0.2.1",
