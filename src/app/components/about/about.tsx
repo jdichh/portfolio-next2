@@ -10,9 +10,9 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-6">
         Hello, I'm Jason, and my passion lies in {" "}
-        <span className="text-accent-color">crafting user-friendly,</span>{" "}
-        <span className="text-accent-color">captivating websites</span> and{" "}
-        <span className="text-accent-color">web applications.</span>
+        <span className="font-semibold">crafting user-friendly,</span>{" "}
+        <span className="font-semibold">captivating websites</span> and{" "}
+        <span className="font-semibold">web applications.</span>
       </p>
       <p>
         Outside of making projects, I enjoy running, playing my beloved electric
