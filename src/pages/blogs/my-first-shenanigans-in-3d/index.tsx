@@ -14,7 +14,7 @@ const gabarito = Gabarito({ subsets: ["latin"] });
 export default function index() {
   const IMAGE_WIDTH = 850;
   const IMAGE_HEIGHT = 450;
-  const IMAGE_QUALITY = 80;
+  const IMAGE_QUALITY = 60;
   const ON_HOVER_SCALE = 1.05;
   const ON_TAP_SCALE = 0.925;
 

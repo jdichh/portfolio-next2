@@ -21,7 +21,7 @@ export default function Project({
 }: ProjectProps) {
   const TOOL_ICON_QUALITY = 20;
   const TOOL_ICON_DIMENSIONS = 17;
-  const IMAGE_QUALITY = 50;
+  const IMAGE_QUALITY = 60;
   const ON_HOVER_SCALE = 1.05;
   const ON_TAP_SCALE = 0.95;
   const TRANSITION_DUR = 0.15;
