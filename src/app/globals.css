@@ -26,3 +26,7 @@ body {
 .icons {
   @apply rounded-sm p-[6px] hover:text-accent-color outlined custom-transition;
 }
+
+.project-buttons {
+  @apply flex items-center justify-center outline-1 outline px-3 rounded-sm hover:text-accent-color;
+}
