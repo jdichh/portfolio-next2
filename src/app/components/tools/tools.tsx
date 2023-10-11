@@ -7,7 +7,7 @@ export default function Tools() {
   const ICON_DIMENSIONS = 40;
 
   return (
-    <section className="px-4 w-full mt-24 scroll-mt-20" id="tools">
+    <section className="px-4 w-full mt-16 scroll-mt-20" id="tools">
       <SectionHeading>Tools</SectionHeading>
       <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
         {tools.map((tool, index) => (

@@ -11,7 +11,7 @@ body {
   @apply bg-theme-color text-theme-text;
 }
 
-.header-color {
+header {
   @apply border-accent-color border-b bg-theme-color;
 }
 

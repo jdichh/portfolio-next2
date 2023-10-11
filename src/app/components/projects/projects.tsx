@@ -6,7 +6,7 @@ import Project from "./project";
 export default function Projects() {
   return (
     <section
-      className="px-4 w-full leading-8 scroll-mt-20 mt-24"
+      className="px-4 w-full leading-8 scroll-mt-20 mt-16"
       id="works"
     >
       <SectionHeading>Works</SectionHeading>

@@ -7,8 +7,8 @@ const dmSerifDisplay = DM_Serif_Display({ subsets: ["latin"], weight: "400" });
 
 export default function Header() {
   return (
-    <header className="z-[99] fixed w-full max-w-[1440px] top-0 header-color">
-      <nav className="flex justify-between items-center py-4 px-8">
+    <header className="z-[99] fixed w-full -left-1/2 translate-x-[50%] top-0">
+      <nav className="flex justify-between items-center py-4 px-8 max-w-[1440px] mx-auto">
         <a
           href="#home"
           className={`${dmSerifDisplay.className} hover:text-accent-color text-2xl custom-transition`}

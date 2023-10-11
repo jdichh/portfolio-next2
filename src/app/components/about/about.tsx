@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="px-4 w-full sm:w-10/12 md:w-8/12 lg:w-6/12 text-center mt-24 scroll-mt-[2rem] lg:scroll-mt-20"
+      className="px-4 w-full sm:w-10/12 md:w-8/12 lg:w-6/12 text-center mt-16 scroll-mt-[2rem] lg:scroll-mt-20"
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-6">
