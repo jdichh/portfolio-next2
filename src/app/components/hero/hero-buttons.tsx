@@ -20,7 +20,6 @@ export default function HeroButtons() {
         aria-label="Button to my GitHub profile"
         whileHover={{ scale: HOVER_SCALE }}
         whileTap={{ scale: TAP_SCALE }}
-        transition={{ duration: 0 }}
       >
         <AiFillGithub size={ICON_SIZE} />
       </motion.a>
@@ -31,7 +30,6 @@ export default function HeroButtons() {
         aria-label="Button to my LinkedIn profile"
         whileHover={{ scale: HOVER_SCALE }}
         whileTap={{ scale: TAP_SCALE }}
-        transition={{ duration: 0 }}
       >
         <BiLogoLinkedin size={ICON_SIZE} />
       </motion.a>
@@ -41,7 +39,6 @@ export default function HeroButtons() {
         aria-label="Button to send me an email"
         whileHover={{ scale: HOVER_SCALE }}
         whileTap={{ scale: TAP_SCALE }}
-        transition={{ duration: 0 }}
       >
         <SiGmail size={ICON_SIZE} />
       </motion.a>

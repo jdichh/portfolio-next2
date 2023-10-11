@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Gabarito } from "next/font/google";
+import { Providers } from "./providers";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 
@@ -8,7 +9,8 @@ const gabarito = Gabarito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Jason Dichoso | Portfolio",
-  description: "The portfolio website of Jason Dichoso, a web developer from the Philippines.",
+  description:
+    "The portfolio website of Jason Dichoso, a web developer from the Philippines.",
 };
 
 export default function RootLayout({
@@ -21,9 +23,11 @@ export default function RootLayout({
       <body
         className={`${gabarito.className} relative max-w-[1440px] w-full my-0 mx-auto theme`}
       >
-        <Header/>
-        {children}
-        <Footer/>
+        <Providers>
+          <Header />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

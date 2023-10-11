@@ -28,7 +28,7 @@ export default function Project({
 
   return (
     <div className="mb-3 last:mb-0">
-      <article className="group overflow-hidden rounded-sm relative bg-theme-color-lighter">
+      <article className="group overflow-hidden rounded-sm relative project-items">
         <div className="flex flex-col py-4 px-4 md:px-6 md:max-w-[50%] xl:max-w-[55%] md:min-h-[23rem] lg:min-h-[18rem]">
           <Image
             src={imageUrl}
@@ -43,7 +43,7 @@ export default function Project({
             {tools.map((tool, index) => (
               <li
                 key={index}
-                className="bg-theme-color px-2 py-[0.3rem] uppercase tracking-tight rounded-sm flex items-center"
+                className="px-2 py-[0.3rem] uppercase tracking-tight rounded-sm flex items-center project-items-tags"
               >
                 <Image
                   src={toolIcons[index]}
@@ -107,7 +107,7 @@ export default function Project({
           src={imageUrl}
           alt=""
           quality={IMAGE_QUALITY}
-          className="hidden md:block relative md:absolute custom-transition rounded-sm top-7 md:-right-52 lg:-right-16 2xl:-right-1 w-[34rem] -translate-y-7"
+          className="hidden md:block relative md:absolute rounded-sm top-7 md:-right-52 lg:-right-16 2xl:-right-1 w-[34rem] -translate-y-7"
         />
       </article>
     </div>
