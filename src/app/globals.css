@@ -12,6 +12,7 @@
     linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.003) 75%),
     linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.003) 75%);
   background-size: 20px 20px;
+  @apply custom-transition;
 }
 
 html,
@@ -32,7 +33,7 @@ header {
 }
 
 .custom-transition {
-  @apply transition duration-200 ease-in-out;
+  @apply transition duration-[250ms] ease-in-out;
 }
 
 .icons {
@@ -40,15 +41,15 @@ header {
 }
 
 .tools-section {
-  @apply bg-theme-color-lighter dark:bg-theme-color-dark-lighter;
+  @apply bg-theme-color-lighter dark:bg-theme-color-dark-lighter custom-transition;
 }
 
 .project-items {
-  @apply bg-theme-color-lighter dark:bg-theme-color-dark-lighter;
+  @apply bg-theme-color-lighter dark:bg-theme-color-dark-lighter custom-transition;
 }
 
 .project-items-tags {
-  @apply bg-theme-color dark:bg-theme-color-dark;
+  @apply bg-theme-color dark:bg-theme-color-dark custom-transition;
 }
 
 .project-buttons {

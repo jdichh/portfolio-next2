@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${gabarito.className} relative max-w-[1440px] w-full my-0 mx-auto theme`}
       >
