@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${gabarito.className} relative max-w-[1440px] w-full my-0 mx-auto h-[7000px] p-2 theme`}
+        className={`${gabarito.className} relative max-w-[1440px] w-full my-0 mx-auto h-[7000px] theme`}
       >
         <Header/>
         {children}

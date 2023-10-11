@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         'theme-color': "#141414",
         'theme-text': "#F5F5F5",
-        'accented-text': "#B2D806"
+        'accent-color': "#B2D806"
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

@@ -1,15 +1,19 @@
 import React from "react";
 import { DM_Serif_Display } from "next/font/google";
 import HeroButtons from "./hero-buttons";
+import SectionDivider from "../section-divider/section-divider";
 
 const dmSerifDisplay = DM_Serif_Display({ subsets: ["latin"], weight: "400" });
 
 export default function Hero() {
   return (
-    <section className="flex flex-col items-center my-32 scroll-mt-[100rem]" id="home">
+    <section
+      className="flex flex-col items-center scroll-mt-[100rem]"
+      id="home"
+    >
       <div className="flex flex-col items-end p-2">
         <h1
-          className={`${dmSerifDisplay.className} text-4xl sm:text-6xl text-accented-text tracking-tight`}
+          className={`${dmSerifDisplay.className} text-4xl sm:text-6xl text-accent-color tracking-tight`}
         >
           Jason Dichoso
         </h1>
@@ -18,6 +22,7 @@ export default function Hero() {
           <HeroButtons />
         </div>
       </div>
+      <SectionDivider />
     </section>
   );
 }
