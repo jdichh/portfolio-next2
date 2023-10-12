@@ -94,11 +94,11 @@ export const tools = [
     imageUrl: gsapImg,
     alt: "GSAP logo",
   },
-  // {
-  //   name: "Framer Motion",
-  //   imageUrl: framerMotionImg,
-  //   alt: "Framer motion logo",
-  // },
+  {
+    name: "Framer Motion",
+    imageUrl: framerMotionImg,
+    alt: "Framer motion logo",
+  },
 ];
 
 export const projects = [
