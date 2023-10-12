@@ -13,7 +13,8 @@ export default function About() {
           Hello, I'm Jason, and my passion lies in{" "}
           <span className="font-semibold">crafting user-friendly,</span>{" "}
           <span className="font-semibold">captivating websites</span> and{" "}
-          <span className="font-semibold">web applications.</span>
+          <span className="font-semibold">web applications.</span> {" "}
+          Cool stuff, in short.
         </p>
         <p>
           Outside of making projects, I enjoy running, playing my beloved

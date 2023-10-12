@@ -17,7 +17,7 @@ export default function Hero() {
         >
           Jason Dichoso
         </h1>
-        <h2 className="uppercase custom-transition">Web Developer</h2>
+        <h2 className="custom-transition text-lg">Web Developer</h2>
         <div className="my-2 flex gap-2">
           <HeroButtons />
         </div>
