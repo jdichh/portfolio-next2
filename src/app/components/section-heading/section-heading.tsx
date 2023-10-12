@@ -6,7 +6,7 @@ type SectionHeadingProps = {
 
 export default function SectionHeading({ children }: SectionHeadingProps) {
   return (
-    <h3 className="text-xl text-center xl:mt-0 mb-3">
+    <h3 className="text-xl text-center xl:mt-0 mb-3 custom-transition">
       {children}
     </h3>
   );

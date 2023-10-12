@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/dist/shared/lib/head";
 import { Gabarito } from "next/font/google";
-
 import RouteHeader from "@/app/components/route-components/route-header";
 import BlogsContainer from "@/app/components/route-components/blog-components/blogs-container";
 import Footer from "@/app/components/footer/footer";
@@ -16,7 +15,7 @@ export default function index() {
       </Head>
       <main className={`flex flex-col items-start w-full p-4 ${gabarito.className}`}>
         <RouteHeader />
-        <div className="mt-48" />
+        <div className="mt-24 sm:mt-48" />
         <div className="mb-8">
           <h1 className="mb-3 text-xl sm:text-2xl custom-transition">
             <span className="font-bold">

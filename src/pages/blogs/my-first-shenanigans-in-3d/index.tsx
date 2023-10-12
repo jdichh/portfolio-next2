@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Head from "next/dist/shared/lib/head";
-import { motion } from "framer-motion";
 import { Gabarito } from "next/font/google";
 import { BsWrenchAdjustableCircleFill } from "react-icons/bs";
 import { SiNetlify } from "react-icons/si";
@@ -12,11 +11,9 @@ import BlogHeader from "@/app/components/route-components/blog-components/blog-h
 const gabarito = Gabarito({ subsets: ["latin"] });
 
 export default function index() {
-  const IMAGE_WIDTH = 850;
+  const IMAGE_WIDTH = 800;
   const IMAGE_HEIGHT = 450;
-  const IMAGE_QUALITY = 60;
-  const ON_HOVER_SCALE = 1.05;
-  const ON_TAP_SCALE = 0.925;
+  const IMAGE_QUALITY = 80;
 
   return (
     <>
@@ -672,40 +669,31 @@ export default function index() {
             </p>
 
             <div className="article-links-container">
-              <motion.a
+              <a
                 href="https://github.com/jdichh/synthwave-scene"
                 target="_blank"
                 aria-label="Button to the source code of the project"
                 className="article-links"
-                whileHover={{ scale: ON_HOVER_SCALE }}
-                whileTap={{ scale: ON_TAP_SCALE }}
-                transition={{ duration: 0 }}
               >
                 <AiFillGithub size={22} /> <span className="ml-1">Source Code</span>
-              </motion.a>
-              <motion.a
+              </a>
+              <a
                 href="https://jdsynthwave.netlify.app/"
                 target="_blank"
                 aria-label="Button for a demo of the project"
                 className="article-links"
-                whileHover={{ scale: ON_HOVER_SCALE }}
-                whileTap={{ scale: ON_TAP_SCALE }}
-                transition={{ duration: 0 }}
               >
                 <SiNetlify size={22} /> <span className="ml-1">Demo</span>
-              </motion.a>
-              <motion.a
+              </a>
+              <a
                 href="https://drive.google.com/drive/folders/1T71kzlu3KbTG4J0MR5YbCOmdzzKyOBuX?usp=drive_link"
                 target="_blank"
                 aria-label="Button for my Dev Videos of the project"
                 className="article-links"
-                whileHover={{ scale: ON_HOVER_SCALE }}
-                whileTap={{ scale: ON_TAP_SCALE }}
-                transition={{ duration: 0 }}
               >
                 <BsWrenchAdjustableCircleFill size={22} />{" "}
                 <span className="ml-1">Dev Videos</span>
-              </motion.a>
+              </a>
             </div>
           </section>
         </article>

@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en" className='h-full'>
       <Head />
-      <body className='theme max-w-[850px] mx-auto h-full'>
+      <body className='theme max-w-[800px] mx-auto h-full custom-transition'>
         <Main />
         <NextScript />
       </body>

@@ -9,11 +9,11 @@ export default function Tools() {
   return (
     <section className="px-4 w-full mt-16 scroll-mt-20 " id="tools">
       <SectionHeading>Tools</SectionHeading>
-      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 ">
         {tools.map((tool, index) => (
           <li
             key={index}
-            className="flex flex-col text-center items-center m-1 p-3 rounded-sm highlighted"
+            className="flex flex-col text-center items-center m-1 p-3 rounded-sm highlighted custom-transition"
           >
             <Image
               src={tool.imageUrl}

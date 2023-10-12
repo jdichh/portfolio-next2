@@ -31,11 +31,9 @@ import BlogHeader from "@/app/components/route-components/blog-components/blog-h
 const gabarito = Gabarito({ subsets: ["latin"] });
 
 export default function index() {
-  const IMAGE_WIDTH = 850;
+  const IMAGE_WIDTH = 800;
   const IMAGE_HEIGHT = 450;
-  const IMAGE_QUALITY = 60;
-  const ON_HOVER_SCALE = 1.05;
-  const ON_TAP_SCALE = 0.925;
+  const IMAGE_QUALITY = 80;
 
   return (
     <>
@@ -52,7 +50,7 @@ export default function index() {
           content="A story about how I ended up recreating Gran Turismo (not really) with Three.js."
         />
       </Head>
-      <BlogHeader/>
+      <BlogHeader />
       <main className={`article-body ${gabarito.className}`}>
         <article>
           <div className="mt-44" />
@@ -70,15 +68,9 @@ export default function index() {
               the title.
             </p>
             <div className="flex justify-end">
-              <motion.a
-                href="#good-stuff"
-                className="article-links"
-                whileHover={{ scale: ON_HOVER_SCALE }}
-                whileTap={{ scale: ON_TAP_SCALE }}
-                transition={{ duration: 0 }}
-              >
+              <a href="#good-stuff" className="article-links">
                 <BsFillSkipForwardFill /> <span className="ml-2">SKIP</span>
-              </motion.a>
+              </a>
             </div>
           </aside>
 
@@ -407,15 +399,9 @@ export default function index() {
                 Here's a skip button to see how I load a model.
               </p>
               <div className="flex justify-end">
-                <motion.a
-                  href="#loading-the-model"
-                  className="article-links"
-                  whileHover={{ scale: ON_HOVER_SCALE }}
-                  whileTap={{ scale: ON_TAP_SCALE }}
-                  transition={{ duration: 0 }}
-                >
+                <a href="#loading-the-model" className="article-links">
                   <BsFillSkipForwardFill /> <span className="ml-2">SKIP</span>
-                </motion.a>
+                </a>
               </div>
             </aside>
           </section>
@@ -862,7 +848,10 @@ export default function index() {
             <h2 className="article-section-title scroll-mt-20">Links</h2>
 
             <p className="article-text">
-              Here are the links for the project if you're interested.{" "}
+              Here are the links for the project if you're interested.
+            </p>
+
+            <p className="article-text">
               <strong>
                 But, I cannot stress this enough: You HAVE to open the project
                 itself on a PC. Your mobile device will likely lag or maybe
@@ -872,40 +861,32 @@ export default function index() {
             </p>
 
             <div className="article-links-container">
-              <motion.a
+              <a
                 href="https://github.com/jdichh/car-showroom"
                 target="_blank"
                 aria-label="Button to the source code of the project"
                 className="article-links"
-                whileHover={{ scale: ON_HOVER_SCALE }}
-                whileTap={{ scale: ON_TAP_SCALE }}
-                transition={{ duration: 0 }}
               >
-                <AiFillGithub size={22} /> <span className="ml-1">Source Code</span>
-              </motion.a>
-              <motion.a
+                <AiFillGithub size={22} />{" "}
+                <span className="ml-1">Source Code</span>
+              </a>
+              <a
                 href="https://gtshowroom.netlify.app/"
                 target="_blank"
                 aria-label="Button for a demo of the project"
                 className="article-links"
-                whileHover={{ scale: ON_HOVER_SCALE }}
-                whileTap={{ scale: ON_TAP_SCALE }}
-                transition={{ duration: 0 }}
               >
                 <SiNetlify size={22} /> <span className="ml-1">Demo</span>
-              </motion.a>
-              <motion.a
+              </a>
+              <a
                 href="https://drive.google.com/drive/folders/1wxP8FM63t-DFlsGL2M6aUYAoZJhQAfOO?usp=sharing"
                 target="_blank"
                 aria-label="Button for my Dev Videos of the project"
                 className="article-links"
-                whileHover={{ scale: ON_HOVER_SCALE }}
-                whileTap={{ scale: ON_TAP_SCALE }}
-                transition={{ duration: 0 }}
               >
                 <BsWrenchAdjustableCircleFill size={22} />{" "}
                 <span className="ml-1">Dev Videos</span>
-              </motion.a>
+              </a>
             </div>
 
             <p className="article-text">

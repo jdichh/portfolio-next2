@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <link rel="manifest" href="/pwa/manifest.json" />
-      <meta name="theme-color" content="#008080" />
+      <meta name="theme-color" content="#E0E4E5" />
       <body
         className={`${gabarito.className} relative max-w-[1440px] w-full my-0 mx-auto theme`}
       >
