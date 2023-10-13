@@ -123,3 +123,11 @@ header {
   font-size: 0.9rem;
   @apply outlined;
 }
+
+.slide-in {
+  @apply absolute top-0 left-0 w-full h-screen bg-theme-color dark:bg-theme-color-dark origin-right z-[2000];
+}
+
+.slide-out {
+  @apply absolute top-0 left-0 w-full h-screen bg-theme-color dark:bg-theme-color-dark origin-left z-[2000];
+}
