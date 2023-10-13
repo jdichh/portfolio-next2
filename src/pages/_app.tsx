@@ -16,14 +16,14 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             initial={{ scaleX: 0 }}
             animate={{ scaleX: 0 }}
             exit={{ scaleX: 1 }}
-            transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
             className="slide-in"
           />
           <motion.div
             initial={{ scaleX: 1 }}
             animate={{ scaleX: 0 }}
             exit={{ scaleX: 0 }}
-            transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
             className="slide-out"
           />
         </motion.div>
