@@ -5,7 +5,7 @@ import { Providers } from "./providers";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 
-const gabarito = Gabarito({ subsets: ["latin"] });
+const gabarito = Gabarito({ subsets: ["latin"], fallback: ["system-ui", "Segoe UI", "Roboto", "Helvetica", "Arial", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"] });
 
 export const metadata: Metadata = {
   title: "Jason Dichoso | Portfolio",
