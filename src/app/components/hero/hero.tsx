@@ -13,7 +13,7 @@ export default function Hero() {
     >
       <div className="flex flex-col items-end p-2">
         <h1
-          className={`${dmSerifDisplay.className} text-4xl sm:text-6xl text-accent-color tracking-tight`}
+          className={`${dmSerifDisplay.className} text-5xl sm:text-6xl text-accent-color tracking-tight text-center`}
         >
           Jason Dichoso
         </h1>
