@@ -1,7 +1,7 @@
 export default function OtherProjects() {
   return (
     <div className="flex justify-center md:justify-end opacity-90">
-      <p className="text-base text-center">
+      <p className="text-base text-center custom-transition">
         You can view my other projects in my{" "}
         <a
           href="https://jdichh.netlify.app/#projects"
