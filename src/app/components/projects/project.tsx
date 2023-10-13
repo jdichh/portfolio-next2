@@ -27,7 +27,7 @@ export default function Project({
 
   return (
     <div className="mb-3 last:mb-0">
-      <article className="group overflow-hidden rounded-sm relative highlighted hover:lg:scale-[1.02] hover:outline hover:outline-1 custom-transition">
+      <article className="group overflow-hidden rounded-sm relative highlighted custom-transition">
         <div className="flex flex-col py-4 px-4 md:px-6 md:max-w-[50%] xl:max-w-[55%] md:min-h-[23rem] lg:min-h-[18rem]">
           <Image
             src={imageUrl}
