@@ -4,7 +4,7 @@ import { DM_Serif_Display } from "next/font/google";
 import { links } from "@/lib/data";
 import ThemeSwitcher from "../theme-switcher/theme-switcher";
 
-const dmSerifDisplay = DM_Serif_Display({ subsets: ["latin"], weight: "400" });
+const dmSerifDisplay = DM_Serif_Display({ subsets: ["latin"], weight: "400", fallback: ["system-ui", "Segoe UI", "Roboto", "Helvetica", "Arial", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"] });
 
 export default function Header() {
   return (
