@@ -106,8 +106,8 @@ export const projects = [
     name: "Dreamscape",
     description:
       "A SaaS (software as a service) product that utilizes AI models from Replicate and OpenAI. Features include image, video, audio & code generation, and the ability to have a conversation.",
-    tools: ["Next.js", "Shadcn", "OpenAI", "Replicate"],
-    toolIcons: [nextImg, shadcnImg, openaiImg, replicateImg],
+    tools: ["Next.js", "Shadcn", "Tailwind", "OpenAI", "Replicate"],
+    toolIcons: [nextImg, shadcnImg, tailwindImg, openaiImg, replicateImg],
     imageUrl: dreamscape,
     videoLink: "https://www.youtube.com/watch?v=W-M-yczcgSc",
     githubLink: "https://github.com/jdichh/saas-next2",
