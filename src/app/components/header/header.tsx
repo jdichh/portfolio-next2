@@ -24,7 +24,7 @@ export default function Header() {
             <li key={link.hash}>
               <Link
                 href={link.hash}
-                className="hover:text-accent-color"
+                className="hover:text-accent-color font-semibold"
               >
                 {link.name}
               </Link>

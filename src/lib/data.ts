@@ -162,39 +162,6 @@ export const projects = [
     videoLink: "https://youtu.be/vkYClk75SS0",
     githubLink: "https://github.com/jdichh/websystem_ssu2",
   },
-  {
-    name: "Synthwave Scene",
-    description:
-      "A synthwave scene in 3D. Made with React.js and Three.js because I wanted to know how different the syntax & conventions are compared to React-Three-Fiber.",
-    tools: ["PC Recommended", "React.js", "Three.js", "SCSS"],
-    imageUrl: synthwave,
-    toolIcons: [pcImg, reactImg, threeImg, scssImg],
-    liveLink: "https://jdsynthwave.netlify.app/",
-    videoLink: "https://youtu.be/S7RprZc3dEs",
-    blogLink: "/blogs/my-first-shenanigans-in-3d/",
-    githubLink: "https://github.com/jdichh/synthwave-scene-REACT",
-  },
-  {
-    name: "Random Password Generator Extension",
-    description:
-      "A random password generator extension with options for digits, special characters, lower/uppercase letters and a slider for the length of the password.",
-    tools: ["HTML", "SCSS", "JavaScript"],
-    imageUrl: pwgen,
-    toolIcons: [htmlImg, scssImg, jsImg],
-    videoLink: "https://youtu.be/pq-EsJa1plw",
-    githubLink: "https://github.com/jdichh/password-generator",
-  },
-  {
-    name: "Asteroids",
-    description:
-      "The Asteroids game from Atari, but with my modifications. I made this to expand upon my JavaScript knowledge, and to have a bit of fun as well.",
-    tools: ["PC Required", "JavaScript"],
-    imageUrl: asteroids,
-    toolIcons: [pcRequiredImg, jsImg],
-    liveLink: "https://jdasteroids.netlify.app/",
-    videoLink: "https://www.youtube.com/watch?v=6LwWaI4WKdg",
-    githubLink: "https://github.com/jdichh/asteroids",
-  },
 ];
 
 export const blogs = [
