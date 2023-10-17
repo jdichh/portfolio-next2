@@ -1,38 +1,33 @@
-// projects
-import soulless from "../../public/project/soulless.png";
-import asteroids from "../../public/project/asteroids.png"
-import vintora from "../../public/project/vintora.png";
+import asteroids from "../../public/project/asteroids.png";
+import dreamscape from "../../public/project/dreamscape.png";
+import pwgen from "../../public/project/pwgen.png";
 import showroom from "../../public/project/showroom.png";
+import ssu from "../../public/project/ssu.png";
 import synthwave from "../../public/project/synthwave.png";
 import vespa from "../../public/project/vespa.png";
-import ssu from "../../public/project/ssu.png";
-import pwgen from "../../public/project/pwgen.png"
+import vintora from "../../public/project/vintora.png";
 
-// icons
-import htmlImg from "../../public/tools/html.svg";
-import cssImg from "../../public/tools/css.svg";
-import scssImg from "../../public/tools/scss.svg";
-import jsImg from "../../public/tools/js.svg";
-import reactImg from "../../public/tools/react.svg";
-import nextImg from "../../public/tools/next.svg";
-import vueImg from "../../public/tools/vue.svg";
-import threeImg from "../../public/tools/three.svg";
-import r3fImg from "../../public/tools/r3f.svg";
 import bootstrapImg from "../../public/tools/bootstrap.svg";
-import tailwindImg from "../../public/tools/tailwind.svg";
-import gsapImg from "../../public/tools/gsap.svg";
-import framerMotionImg from "../../public/tools/framermotion.svg";
+import cssImg from "../../public/tools/css.svg";
 import firebaseImg from "../../public/tools/firebase.svg";
-import waveToolImg from "../../public/tools/wavetool.svg";
-import lighthouseImg from "../../public/tools/lighthouse.svg";
+import framerMotionImg from "../../public/tools/framermotion.svg";
+import gsapImg from "../../public/tools/gsap.svg";
+import htmlImg from "../../public/tools/html.svg";
+import jsImg from "../../public/tools/js.svg";
+import nextImg from "../../public/tools/next.svg";
+import openaiImg from "../../public/tools/openai.svg";
 import pcImg from "../../public/tools/pc.svg";
 import pcRequiredImg from "../../public/tools/pcrequired.svg";
+import r3fImg from "../../public/tools/r3f.svg";
+import reactImg from "../../public/tools/react.svg";
+import replicateImg from "../../public/tools/replicate.svg";
+import scssImg from "../../public/tools/scss.svg";
+import shadcnImg from "../../public/tools/shadcn.svg";
+import tailwindImg from "../../public/tools/tailwind.svg";
+import threeImg from "../../public/tools/three.svg";
+import vueImg from "../../public/tools/vue.svg";
 
 export const links = [
-  // {
-  //   name: "Tools",
-  //   hash: "#tools",
-  // },
   {
     name: "Works",
     hash: "#works",
@@ -90,6 +85,11 @@ export const tools = [
     alt: "Tailwind CSS logo",
   },
   {
+    name: "Shadcn",
+    imageUrl: shadcnImg,
+    alt: "Shadcn logo",
+  },
+  {
     name: "GSAP",
     imageUrl: gsapImg,
     alt: "GSAP logo",
@@ -102,6 +102,16 @@ export const tools = [
 ];
 
 export const projects = [
+  {
+    name: "Dreamscape",
+    description:
+      "A SaaS (software as a service) product that utilizes AI models from Replicate and OpenAI. Features include image, video, audio & code generation, and the ability to have a conversation.",
+    tools: ["Next.js", "Shadcn", "OpenAI", "Replicate"],
+    toolIcons: [nextImg, shadcnImg, openaiImg, replicateImg],
+    imageUrl: dreamscape,
+    videoLink: "https://www.youtube.com/watch?v=W-M-yczcgSc",
+    githubLink: "https://github.com/jdichh/saas-next2",
+  },
   {
     name: "Vespa 125 Promotional Website",
     description:
@@ -116,6 +126,7 @@ export const projects = [
     toolIcons: [pcImg, reactImg, r3fImg, gsapImg, tailwindImg],
     imageUrl: vespa,
     liveLink: "https://jdvespa.netlify.app/",
+    videoLink: "https://youtu.be/yqbOWSLi75w",
     githubLink: "https://github.com/jdichh/vespa-r3f",
   },
   {
@@ -171,7 +182,7 @@ export const projects = [
     imageUrl: pwgen,
     toolIcons: [htmlImg, scssImg, jsImg],
     videoLink: "https://youtu.be/pq-EsJa1plw",
-    githubLink: "https://github.com/jdichh/password-generator"
+    githubLink: "https://github.com/jdichh/password-generator",
   },
   {
     name: "Asteroids",
@@ -182,7 +193,7 @@ export const projects = [
     toolIcons: [pcRequiredImg, jsImg],
     liveLink: "https://jdasteroids.netlify.app/",
     videoLink: "https://www.youtube.com/watch?v=6LwWaI4WKdg",
-    githubLink: "https://github.com/jdichh/asteroids"
+    githubLink: "https://github.com/jdichh/asteroids",
   },
 ];
 
