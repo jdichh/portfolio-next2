@@ -158,7 +158,6 @@ export const projects = [
     tools: ["PC Required", "Vue.js", "Bootstrap", "Firebase"],
     imageUrl: ssu,
     toolIcons: [pcRequiredImg, vueImg, bootstrapImg, firebaseImg],
-    liveLink: "https://ssuwebsystem.netlify.app",
     videoLink: "https://youtu.be/vkYClk75SS0",
     githubLink: "https://github.com/jdichh/websystem_ssu2",
   },
