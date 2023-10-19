@@ -155,9 +155,9 @@ export const projects = [
     name: "Security Unit Web Portal",
     description:
       "This was part of our capstone project back when I was in college, which involved a mobile application, and this web application. The whole system serves as a patrol system for the security unit at our school.",
-    tools: ["PC Required", "Vue.js", "Bootstrap", "Firebase"],
+    tools: ["Vue.js", "Bootstrap", "Firebase"],
     imageUrl: ssu,
-    toolIcons: [pcRequiredImg, vueImg, bootstrapImg, firebaseImg],
+    toolIcons: [vueImg, bootstrapImg, firebaseImg],
     videoLink: "https://youtu.be/vkYClk75SS0",
     githubLink: "https://github.com/jdichh/websystem_ssu2",
   },
