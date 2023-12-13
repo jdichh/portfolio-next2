@@ -26,6 +26,8 @@ import shadcnImg from "../../public/tools/shadcn.svg";
 import tailwindImg from "../../public/tools/tailwind.svg";
 import threeImg from "../../public/tools/three.svg";
 import vueImg from "../../public/tools/vue.svg";
+import rubyImg from "../../public/tools/ruby.svg";
+import railsImg from "../../public/tools/rails.svg";
 
 export const links = [
   {
@@ -73,6 +75,11 @@ export const tools = [
     name: "React-Three-Fiber",
     imageUrl: r3fImg,
     alt: "React-Three-Fiber logo",
+  },
+  {
+    name: "Ruby",
+    imageUrl: rubyImg,
+    alt: "Ruby logo",
   },
   {
     name: "SCSS",
@@ -130,16 +137,25 @@ export const projects = [
     githubLink: "https://github.com/jdichh/vespa-r3f",
   },
   {
-    name: "Virtual Car Showroom",
+    name: "Asteroids",
     description:
-      "A 3D virtual car showroom mainly inspired by Gran Turismo Sport. I also replicated some parts of the UI from the actual game.",
-    tools: ["PC Required", "React.js", "React-Three-Fiber", "SCSS"],
-    toolIcons: [pcRequiredImg, reactImg, r3fImg, scssImg],
-    imageUrl: showroom,
-    liveLink: "https://gtshowroom.netlify.app/",
-    videoLink: "https://youtu.be/PhjlgLxL-Zg",
-    blogLink: "/blogs/gran-turismo-showroom",
-    githubLink: "https://github.com/jdichh/car-showroom-r3f/",
+      "The iconic Asteroids game, but with my own touch.",
+    tools: ["PC Required", "JavaScript"],
+    toolIcons: [pcRequiredImg, jsImg],
+    imageUrl: asteroids,
+    liveLink: "https://jdasteroids.netlify.app/",
+    videoLink: "https://www.youtube.com/watch?v=6LwWaI4WKdg",
+    githubLink: "https://github.com/jdichh/asteroids",
+  },
+  {
+    name: "Security Unit Web Portal",
+    description:
+      "This was part of our capstone project back when I was in college, which involved a mobile application, and this web application. The whole system serves as a patrol system for the security unit at our school.",
+    tools: ["Vue.js", "Bootstrap", "Firebase"],
+    imageUrl: ssu,
+    toolIcons: [vueImg, bootstrapImg, firebaseImg],
+    videoLink: "https://youtu.be/vkYClk75SS0",
+    githubLink: "https://github.com/jdichh/websystem_ssu2",
   },
   {
     name: "Khronomechanica Vintora",
@@ -152,14 +168,16 @@ export const projects = [
     githubLink: "https://github.com/jdichh/steampunk-watch",
   },
   {
-    name: "Security Unit Web Portal",
+    name: "Virtual Car Showroom",
     description:
-      "This was part of our capstone project back when I was in college, which involved a mobile application, and this web application. The whole system serves as a patrol system for the security unit at our school.",
-    tools: ["Vue.js", "Bootstrap", "Firebase"],
-    imageUrl: ssu,
-    toolIcons: [vueImg, bootstrapImg, firebaseImg],
-    videoLink: "https://youtu.be/vkYClk75SS0",
-    githubLink: "https://github.com/jdichh/websystem_ssu2",
+      "A 3D virtual car showroom mainly inspired by Gran Turismo Sport. I also replicated some parts of the UI from the actual game.",
+    tools: ["PC Required", "React.js", "React-Three-Fiber", "SCSS"],
+    toolIcons: [pcRequiredImg, reactImg, r3fImg, scssImg],
+    imageUrl: showroom,
+    liveLink: "https://gtshowroom.netlify.app/",
+    videoLink: "https://youtu.be/PhjlgLxL-Zg",
+    blogLink: "/blogs/gran-turismo-showroom",
+    githubLink: "https://github.com/jdichh/car-showroom-r3f/",
   },
 ];
 
