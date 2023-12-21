@@ -77,11 +77,6 @@ export const tools = [
     alt: "React-Three-Fiber logo",
   },
   {
-    name: "Ruby",
-    imageUrl: rubyImg,
-    alt: "Ruby logo",
-  },
-  {
     name: "SCSS",
     imageUrl: scssImg,
     alt: "SCSS logo",
@@ -106,6 +101,11 @@ export const tools = [
     imageUrl: framerMotionImg,
     alt: "Framer motion logo",
   },
+  // {
+  //   name: "Ruby",
+  //   imageUrl: rubyImg,
+  //   alt: "Ruby logo",
+  // },
 ];
 
 export const projects = [
