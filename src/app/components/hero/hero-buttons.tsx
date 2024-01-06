@@ -17,7 +17,7 @@ export default function HeroButtons() {
       </a>
       <a
         className="icons"
-        href="https://www.linkedin.com/in/jason-dichoso-a97a0026a/"
+        href="https://www.linkedin.com/in/jason-dichoso"
         target="_blank"
         aria-label="Button to my LinkedIn profile"
       >
